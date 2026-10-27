@@ -1,0 +1,254 @@
+html{
+  scroll-behavior: smooth ;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 16px;
+  font-family: Helvetica;
+  line-height: 24px;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.lineaRosa{
+  background-color: #ff3281;
+  width: 100%;
+  padding: 2px;
+}
+
+.negritas{
+  font-weight: bold;
+}
+
+.contenedorLogos{
+  background-color: #fff9f1;
+  padding-bottom: 20px;
+}
+
+.contenedorLogoCabecera{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.contenedorRedes{
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+  margin-left: 450px;
+}
+
+.redes{
+  margin-left: 25px;
+}
+
+.contenedorNavbar{
+  border: 2px black solid;
+  width: 80%;
+  margin: auto;
+}
+
+.botonNavBar{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 3px 75px;
+}
+
+.botonNavBar:hover{
+  background-color: #feedd8;
+}
+
+.contenedorPromociones{
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+}
+
+h1{
+  color: white;
+  margin-bottom: 15px;
+}
+
+.textoPromociones{
+  color: white;
+  font-size: 20px;
+  padding: 0px 150px;
+}
+
+.contenedorBotonesPromociones{
+  margin-top: 50px;
+}
+
+.botonRosa{
+  background-color: #ff3281;
+  color: white;
+  padding: 22px 30px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.botonRosa:hover{
+  background-color: rgb(254, 94, 155)
+}
+
+.botonTransparente{
+  border: 2px #ff3281 solid;
+  background-color: transparent;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.botonTransparente:hover{
+  background-color: #ffffff4e;
+}
+
+.contenedorScience{
+  padding: 10px 90px;
+}
+
+.tituloScience{
+  margin-bottom: 20px ;
+}
+
+.contenedorTextoScience{
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  line-height: 50px;
+}
+
+.contenedorImagenScience{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+.tituloBuscamos{
+  margin: 20px;
+}
+
+.contenedorBuscamos{
+  background-color: #fff9f1;
+  padding: 10px 70px;
+}
+
+.contenedorImagenBuscamos{
+  width: 55%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imagenBuscamos{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contenedorTextoBuscamos{
+  width: 44%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 10px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.contenedorTextoBuscamos h3{
+  margin-bottom: 5px;
+}
+
+.contenedorTextoBuscamos p{
+  margin-bottom: 15px;
+}
+
+.rosa{
+  color: #ff3281;
+}
+
+.contenedorMasInfo{
+  padding: 0px 70px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.contenedorNoticias{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  padding: 10px 40px;
+}
+
+.contenedorInstalaciones{
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+.videoInstalaciones{
+  margin-top: 30px;
+  width: 100%;
+  height: 270px;
+}
+
+.contenedorFormulario{
+  border: 3px #ff3281 solid;
+  padding: 20px 10px;
+}
+
+.elemento{
+  width: 90%;
+  padding: 5px 0px;
+  padding-left: 10px;
+  padding-right: 50px;
+  margin: 15px 0px;
+}
+
+.botonEnviar{
+  padding: 10px 50px;
+  border-radius: 0px;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botonEnviar:hover{
+  background-color: rgb(74, 74, 74);
+}
+
+.contenedorFinal{
+  background-color: #fff9f1;
+  padding: 15px 20px;
+}
+
+.contenedorLogoFinal{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedorDatosAlumno{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  color: #ff3281;
+  font-weight: bold;
+  margin-left: 550px;
+}
